@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
+    <link rel="stylesheet" href="./build/variables.css" />
+    <style>
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color : var(--color-palettes-black, #ff0000);
+            &:hover{
+                background-color : var(--color-palettes-light-blue-a700, #7cf43b);
+            }
+        }
+    </style>
 </head>
 <body>
-    testtest
+    <div class="item">testtest</div>
 </body>
 </html>
